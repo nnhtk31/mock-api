@@ -1,0 +1,168 @@
+{
+  "request": {
+    "url": "/api/ApiGetSampleCount/TVPOP",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "FunctionClass": "8",
+          "DistrictCode": "51",
+          "AuthenticationKey": "0832914f-a602-4629-b871-daab087bb0bb",
+          "User": "NALUser",
+          "Terms": [
+            {
+              "TermFrom": "20181204",
+              "TermTo": "20181210"
+            }
+          ],
+          "WeekDayCodes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "Target": [
+            {
+              "StandardFlag": 1,
+              "StandardTargetCodes": "0  ",
+              "AnyTargets": null
+            },
+            {
+              "StandardFlag": 1,
+              "StandardTargetCodes": "101",
+              "AnyTargets": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "FunctionClass": "8",
+      "DistrictCode": 51,
+      "SampleCountInfos": [
+        {
+          "BroadcastDate": "20181015",
+          "WeekCode": 1,
+          "SampleCountDetails": [
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "0  ",
+              "SampleCount": 895
+            },
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "101",
+              "SampleCount": 2237
+            }
+          ]
+        },
+        {
+          "BroadcastDate": "20181016",
+          "WeekCode": 2,
+          "SampleCountDetails": [
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "0  ",
+              "SampleCount": 895
+            },
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "101",
+              "SampleCount": 2239
+            }
+          ]
+        },
+        {
+          "BroadcastDate": "20181017",
+          "WeekCode": 3,
+          "SampleCountDetails": [
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "0  ",
+              "SampleCount": 896
+            },
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "101",
+              "SampleCount": 2242
+            }
+          ]
+        },
+        {
+          "BroadcastDate": "20181018",
+          "WeekCode": 4,
+          "SampleCountDetails": [
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "0  ",
+              "SampleCount": 895
+            },
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "101",
+              "SampleCount": 2239
+            }
+          ]
+        },
+        {
+          "BroadcastDate": "20181019",
+          "WeekCode": 5,
+          "SampleCountDetails": [
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "0  ",
+              "SampleCount": 896
+            },
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "101",
+              "SampleCount": 2243
+            }
+          ]
+        },
+        {
+          "BroadcastDate": "20181020",
+          "WeekCode": 6,
+          "SampleCountDetails": [
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "0  ",
+              "SampleCount": 895
+            },
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "101",
+              "SampleCount": 2241
+            }
+          ]
+        },
+        {
+          "BroadcastDate": "20181021",
+          "WeekCode": 7,
+          "SampleCountDetails": [
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "0  ",
+              "SampleCount": 895
+            },
+            {
+              "StandardTargetFlag": "1",
+              "TargetInfoCode": "101",
+              "SampleCount": 2241
+            }
+          ]
+        }
+      ],
+      "RequestNo": "20181120-feadbd31-d923-4f10-a58a-845dd63cc3b4"
+    }
+  }
+}

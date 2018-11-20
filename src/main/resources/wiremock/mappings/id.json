@@ -1,0 +1,45 @@
+{
+  "request": {
+    "url": "/id",
+    "method": "GET",
+    "basicAuthCredentials": {
+      "username": "TD\\username",
+      "password": "password"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "site": {
+        "id": 42,
+        "name": "MyTestInstall"
+      },
+      "user": {
+        "id": 314,
+        "username": "jane.smith",
+        "displayName": "Jane Smith",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "emailAddress": "jane.smith@eloqua.com"
+      },
+      "urls": {
+        "base": "https://eloqua-stub.herokuapp.com",
+        "apis": {
+          "soap": {
+            "standard": "https://eloqua-stub.herokuapp.com/api/{version}/Service.svc",
+            "dataTransfer": "https://eloqua-stub.herokuapp.com/api/{version}/DataTransferService.svc",
+            "email": "https://eloqua-stub.herokuapp.com/api/{version}/EmailService.svc",
+            "externalAction": "https://eloqua-stub.herokuapp.com/api/{version}/ExternalActionService.svc"
+          },
+          "rest": {
+            "standard": "https://eloqua-stub.herokuapp.com/api/rest/{version}/",
+            "bulk": "https://eloqua-stub.herokuapp.com/api/bulk/{version}/"
+          }
+        }
+      }
+    }
+  }
+}

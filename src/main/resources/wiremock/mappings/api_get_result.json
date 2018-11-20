@@ -1,0 +1,107 @@
+{
+  "request": {
+    "url": "/api/ApiGetResult/TVPOP",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "FunctionClass":"17",
+          "ContractCompanyId":"0000070001",
+          "AuthenticationKey":"0832914f-a602-4629-b871-daab087bb0bb",
+          "CalcFunctionClass":"46",
+          "RequestNo":"20181119-0ce2504b-142a-40bd-a97a-7e069e3c9967"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "FunctionClass": "46",
+      "DistrictCode": 51,
+      "TimeSlotTablation": [
+        {
+          "Term": {
+            "TermFrom": "20181204",
+            "TermTo": "20181210"
+          },
+          "WeekCodeOption": 11,
+          "TimeWidthSEQ": 1,
+          "StationCode": 1,
+          "RealBroadcastMinutes": 168,
+          "StandardTargetFlag": [
+            "1",
+            "1"
+          ],
+          "TargetInfoCode": [
+            "0  ",
+            "101"
+          ],
+          "Rate": {
+            "101": [
+              "3.8"
+            ],
+            "0  ": [
+              "7.7"
+            ]
+          }
+        },
+        {
+          "Term": {
+            "TermFrom": "20181204",
+            "TermTo": "20181210"
+          },
+          "WeekCodeOption": 11,
+          "TimeWidthSEQ": 2,
+          "StationCode": 1,
+          "RealBroadcastMinutes": 798,
+          "StandardTargetFlag": [
+            "1",
+            "1"
+          ],
+          "TargetInfoCode": [
+            "0  ",
+            "101"
+          ],
+          "Rate": {
+            "101": [
+              "2.8"
+            ],
+            "0  ": [
+              "5.5"
+            ]
+          }
+        },
+        {
+          "Term": {
+            "TermFrom": "20181204",
+            "TermTo": "20181210"
+          },
+          "WeekCodeOption": 11,
+          "TimeWidthSEQ": 3,
+          "StationCode": 1,
+          "RealBroadcastMinutes": 550,
+          "StandardTargetFlag": [
+            "1",
+            "1"
+          ],
+          "TargetInfoCode": [
+            "0  ",
+            "101"
+          ],
+          "Rate": {
+            "101": [
+              "2.9"
+            ],
+            "0  ": [
+              "5.7"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
